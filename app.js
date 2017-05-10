@@ -16,7 +16,8 @@ var  commentRoutes=require("./routes/comments");
 var  campgroundRoutes=require("./routes/campgrounds");
 var  indexRoutes=require("./routes/index");
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+// mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://shaleen:swarup@ds137291.mlab.com:37291/yelpcamp");
 
 
 
@@ -46,7 +47,7 @@ passport.deserializeUser(User.deserializeUser());
 
 app.use(function(req,res,next){
    res.locals.currentUser=req.user;
-   res.locals.error=req.flash("error");
+   res.locals.error=req.flash("error"); 
    res.locals.success=req.flash("success");
    next();
 });
