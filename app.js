@@ -16,9 +16,9 @@ var  commentRoutes=require("./routes/comments");
 var  campgroundRoutes=require("./routes/campgrounds");
 var  indexRoutes=require("./routes/index");
 console.log(process.env.DATABASEURL);
-// mongoose.connect("mongodb://localhost/yelp_camp");
-var url=process.env.DATABASEURL||"mongodb://localhost/yelp_camp";
-mongoose.connect(url);
+mongoose.connect("mongodb://shaleen:swarup@ds137291.mlab.com:37291/yelpcamp");
+// var url=process.env.DATABASEURL||"mongodb://localhost/yelp_camp";
+// mongoose.connect(url);
 // "mongodb://shaleen:swarup@ds137291.mlab.com:37291/yelpcamp"
 
 

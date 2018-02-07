@@ -37,25 +37,27 @@ body {
   animation: imageAnimation 50s linear infinite; 
 }
 .slideshow li:nth-child(1) { 
-    background-image: url('http://www.planwallpaper.com/static/cache/c9/f9/c9f9f954900b2899a31216eaa451659e.jpg');
+    background-image: url('https://static.pexels.com/photos/845930/pexels-photo-845930.jpeg');
 }
 .slideshow li:nth-child(2) { 
-  background-image: url('http://www.planwallpaper.com/static/images/b807c2282ab0a491bd5c5c1051c6d312_rP0kQjJ.jpg');
+  background-image: url('https://static.pexels.com/photos/347150/pexels-photo-347150.jpeg');
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
 
-  background-image: url('http://www.birds.com/wp-content/uploads/home/bird4.jpg') ;
+  background-image: url('https://static.pexels.com/photos/428430/pexels-photo-428430.jpeg') ;
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url('http://www.planwallpaper.com/static/cache/e8/76/e87635dcfc0cf42451551fbfac04187e.jpg');
+  background-image: url('https://static.pexels.com/photos/772665/pexels-photo-772665.jpeg');
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url('http://www.planwallpaper.com/static/cache/1a/e8/1ae8fb70314855acca9a14bcf889a35d.jpg');
+  background-image: url('https://static.pexels.com/photos/845930/pexels-photo-845930.jpeg');
   animation-delay: 40s; 
 }
+
+
 @keyframes imageAnimation { 
   0% { 
     opacity: 0; 

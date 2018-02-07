@@ -1,14 +1,30 @@
-
-.thumbnail img{
-width:100%;
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+  
+}
+@media only screen and (max-width: 500px) {
+   #addbtn{
+    
+    position: relative;
+    left:-30%;
+    
+}
+}
+@media only screen and (max-width:768px) and (min-width: 501px) {
+   #addbtn{
+    
+    position: relative;
+    left:-30%;
+    
 }
 
-.thumbnail{
-    padding:0;
+#paradescription{
+    top: 46% !important;
+    left: 15% !important;
 }
-.thumbnail .caption-full{
-    padding:9px;
 }
-#delete-form{
-    display: inline
-}
+ #addbtn{
+    position: relative;
+    left: -13%;
+   }
